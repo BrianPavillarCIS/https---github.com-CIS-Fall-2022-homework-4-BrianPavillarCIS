@@ -1,0 +1,20 @@
+.wrapper {
+    margin: 0 auto;
+    width: 1800px;
+    padding: 50px;
+}
+
+.head-image {
+    width:500px
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
